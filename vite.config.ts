@@ -9,6 +9,9 @@ export default defineConfig(({ mode }) => ({
     host: "::",
     port: 8080,
     allowedHosts: ["carlportfolio.onrender.com"],
+    hmr: {
+      overlay: false, // 🚫 Disable error overlay
+    },
   },
   preview: {
     allowedHosts: ["carlportfolio.onrender.com"],
