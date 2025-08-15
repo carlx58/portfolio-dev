@@ -1,7 +1,6 @@
 
 import { initializeApp } from 'firebase/app';
 import { getFirestore } from 'firebase/firestore';
-import { getAuth } from 'firebase/auth';
 import { firebaseConfig } from './env';
 
 console.log("=== FIREBASE CONFIG LOADING ===");
@@ -25,7 +24,6 @@ export const db = getFirestore(app);
 console.log("✅ Firestore initialized");
 
 // Initialize Firebase Auth
-export const auth = getAuth(app);
 console.log("✅ Firebase Auth initialized");
 
 console.log("=== FIREBASE SETUP COMPLETE ===");
