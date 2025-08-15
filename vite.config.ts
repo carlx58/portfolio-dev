@@ -8,10 +8,10 @@ export default defineConfig(({ mode }) => ({
   server: {
     host: "::",
     port: 8080,
-    allowedHosts: ["portfolio-dev-6.onrender.com"],
+    allowedHosts: ["carlportfolio.onrender.com"],
   },
   preview: {
-    allowedHosts: ["portfolio-dev-6.onrender.com"],
+    allowedHosts: ["carlportfolio.onrender.com"],
   },
   plugins: [
     react(),
