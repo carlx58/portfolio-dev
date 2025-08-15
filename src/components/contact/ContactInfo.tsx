@@ -67,34 +67,6 @@ const ContactInfo = () => {
             </motion.a>
           ))}
         </div>
-        
-        <div>
-          <h3 className="font-medium mb-3 text-blue-400">Social Media</h3>
-          <div className="flex gap-3">
-            {socialLinks.map((social, index) => (
-              <motion.a
-                key={social.name}
-                href={social.url}
-                target="_blank"
-                rel="noopener noreferrer"
-                initial={{ opacity: 0, scale: 0 }}
-                animate={{ opacity: 1, scale: 1 }}
-                transition={{ 
-                  duration: 0.3, 
-                  delay: 0.6 + (index * 0.1),
-                  type: "spring", 
-                  stiffness: 300
-                }}
-                whileHover={{ scale: 1.1, backgroundColor: "#9b87f5" }}
-                whileTap={{ scale: 0.9 }}
-                className="flex items-center justify-center w-10 h-10 bg-secondary rounded-lg hover:bg-brand-purple hover:text-white transition-colors"
-                aria-label={social.name}
-              >
-                {social.icon}
-              </motion.a>
-            ))}
-          </div>
-        </div>
       </div>
 
       <div className="glass-panel p-4 rounded-lg">

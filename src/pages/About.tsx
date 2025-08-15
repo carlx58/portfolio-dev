@@ -17,10 +17,10 @@ const About = () => {
     { name: "Node.js", level: "Intermediate" },
     { name: "Next.js", level: "Intermediate" },
     { name: "C++", level: "Intermediate" },
-    { name: "Machine Learning", level: "Intermediate" },
+    { name: "Machine Learning", level: "Advanced" },
     { name: "CSS", level: "Intermediate" },
-    { name: "Blockchain", level: "Beginner" },
-    { name: "AI", level: "Intermediate" },
+    { name: "Blockchain", level: "Beginer" },
+    { name: "AI", level: "Advanced" },
   ];
 
   return (

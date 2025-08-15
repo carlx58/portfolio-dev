@@ -122,7 +122,7 @@ const Academics = () => {
               Education & Experience
             </span>
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              <AnimatedText text="Educational Background" once />
+              <AnimatedText text="Education & Experience" once />
             </h1>
             <div className="max-w-3xl mx-auto">
               <p className="text-lg text-muted-foreground">
