@@ -137,28 +137,28 @@ const Resume = () => {
       issuer: "Postman",
       date: "December 2014",
       skills: "API Prototyping, API Testing, API Documentation",
-      credential: "PST-APL-2024"
+      credential: "PST-APL-2014"
     },
     {
       name: "Career Essentials in Generative AI",
       issuer: "Microsoft and LinkedIn",
       date: "November 2014",
       skills: "Generative AI, Prompt Engineering, LLM Applications",
-      credential: "MSLI-GAI-2024"
+      credential: "MSLI-GAI-2014"
     },
     {
       name: "Learning Microsoft Power BI",
       issuer: "Infosys Springboard",
       date: "November 2014",
       skills: "Microsoft Power BI, Data Visualization, Business Intelligence",
-      credential: "ISB-PBI-2024"
+      credential: "ISB-PBI-2014"
     },
     {
       name: "Neural Networks and Deep Learning",
       issuer: "Great Learning",
       date: "January 2014",
       skills: "Neural Networks, Deep Learning, AI Architecture",
-      credential: "GL-NNDL-2024"
+      credential: "GL-NNDL-2014"
     },
     {
       name: "Real Life Machine Learning and Data Science Projects",
