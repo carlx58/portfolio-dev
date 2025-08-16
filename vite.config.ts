@@ -8,13 +8,10 @@ export default defineConfig(({ mode }) => ({
   server: {
     host: "::",
     port: 8080,
-    allowedHosts: ["carlweberAI.onrender.com"],
-    hmr: {
-      overlay: false, // 🚫 Disable error overlay
-    },
+    allowedHosts: ["portfolio-dev-6.onrender.com"],
   },
   preview: {
-    allowedHosts: ["carlweberAI.onrender.com"],
+    allowedHosts: ["portfolio-dev-6.onrender.com"],
   },
   plugins: [
     react(),
